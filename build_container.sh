@@ -2,4 +2,4 @@
 
 source config_container.sh
 
-docker build -t $CONTAINER_NAME .
+docker build -t $CONTAINER_IMAGE .
