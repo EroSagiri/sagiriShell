@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 RUN \
-	cp /etc/apt/sources.list /etc/apt/sources.list.default && /
+	cp /etc/apt/sources.list /etc/apt/sources.list.default && \
 	sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list && \
 	apt update && \
 	export DEBIAN_FRONTEND=noninteractive &&\
